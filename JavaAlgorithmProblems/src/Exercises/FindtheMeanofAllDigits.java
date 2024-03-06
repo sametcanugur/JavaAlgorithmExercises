@@ -7,12 +7,12 @@ public class FindtheMeanofAllDigits {
 	}
 
 	public static int findMeanOfNumber(int inputNumber) {
-		String convertedString=String.valueOf(inputNumber);
-		String[] splitArray=convertedString.split("");
-		int sum=0;
-		for(int i=0; i<splitArray.length; i++) {
-			sum=sum+Integer.valueOf(splitArray[i]);
+		String convertedString = String.valueOf(inputNumber);
+		String[] splitArray = convertedString.split("");
+		int sum = 0;
+		for (int i = 0; i < splitArray.length; i++) {
+			sum = sum + Integer.valueOf(splitArray[i]);
 		}
-		return sum/splitArray.length;
+		return sum / splitArray.length;
 	}
 }
