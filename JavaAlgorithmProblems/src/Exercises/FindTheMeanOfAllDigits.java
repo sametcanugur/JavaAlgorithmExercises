@@ -1,6 +1,6 @@
 package Exercises;
 
-public class FindtheMeanofAllDigits {
+public class FindTheMeanOfAllDigits {
 
 	public static void main(String[] args) {
 		System.out.println(findMeanOfNumber(12345));
